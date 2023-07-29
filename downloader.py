@@ -7,11 +7,11 @@ class CryptocurrencyHistoricalDataDownloader:
         self.api_base_url = api_base_url
 
     def download_historical_data(self, cryptocurrency, start_date, end_date):
-        # Format the start and end dates
+        # Format the start and end dates:
         start_date = self.format_date(start_date)
         end_date = self.format_date(end_date)
 
-        # Make API call to get historical data
+        # Make API call to get historical data:
         url = f"{self.api_base_url}/coins/{cryptocurrency}/market_chart/range"
         params = {
             'vs_currency': 'usd',  # Replace with your preferred currency
