@@ -3,11 +3,11 @@
 A tool that downloads and stores historical price and volume data for various cryptocurrencies.
 
 
-In this example, I used the CoinGecko API as a reliable source for historical cryptocurrency data. We will use the requests library to make API calls and pandas to store the data in a structured format.
+I used the CoinGecko API as a reliable source for historical cryptocurrency data. We will use the requests library to make API calls and pandas to store the data in a structured format.
 
-__Install Required Libraries__
+__Install Required Libraries:__
 
-Make sure you have the required libraries installed before running the code. You can install them using the following commands:
+ - Make sure you have the required libraries installed before running the code. You can install them using the following commands:
 
 ```bash
 pip install requests pandas
