@@ -15,7 +15,7 @@ pip install requests pandas
 
 In this code, i defined a class ```CryptocurrencyHistoricalDataDownloader```, which encapsulates the functionality to download historical cryptocurrency data using the CoinGecko API.
 
-The download_historical_data method makes an API call to CoinGecko's /coins/{id}/market_chart/range endpoint to fetch historical data for the specified cryptocurrency.
+The download_historical_data method makes an API call to CoinGecko's ```/coins/{id}/market_chart/range``` endpoint to fetch historical data for the specified cryptocurrency.
 
 I format the start and end dates using the format_date method to match the required format for the API call.
 
