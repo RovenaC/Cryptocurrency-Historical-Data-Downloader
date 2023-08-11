@@ -9,7 +9,7 @@ __Install Required Libraries:__
 
  - Make sure you have the required libraries installed before running the code. You can install them using the following commands:
 
-```bash
+```
 pip install requests pandas
 ```
 
