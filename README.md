@@ -1,7 +1,7 @@
 # Cryptocurrency Historical Data Downloader
 
-A tool that downloads and stores historical price and volume data for various cryptocurrencies.
-.
+A tool that downloads and stores historical price and volume data for various cryptocurrencies...
+..
 
 I used the CoinGecko API as a reliable source for historical cryptocurrency data. We will use the requests library to make API calls and pandas to store the data in a structured format:
 
